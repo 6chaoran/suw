@@ -1,0 +1,31 @@
+Package: suw
+Type: Package
+Title: utility functions for streamlining underwriting models
+Version: 0.2.0
+Author: Chaoran Liu <chliu@munichre.com>
+Maintainer: Chaoran Liu <chliu@munichre.com>
+Depends:
+    R (>= 3.6)
+Description: uitlity functions commonly used for streamlining underwriting 
+    projects.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
+Imports:
+    dplyr,
+    data.table,
+    ggplot2,
+    magrittr,
+    reshape2,
+    tibble,
+    glue,
+    ggpubr,
+    rlang,
+    Metrics,
+    knitr,
+    stats,
+    jsonlite,
+    xgboost,
+    h2o,
+    lightgbm
